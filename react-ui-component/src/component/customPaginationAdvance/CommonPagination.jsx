@@ -12,6 +12,7 @@ const CommonPagination = props => {
     className
   } = props;
 
+  
   const paginationRange = usePagination({
     currentPage,
     totalCount,
@@ -75,5 +76,6 @@ const CommonPagination = props => {
     </ul>
   );
 };
+
 
 export default CommonPagination;
